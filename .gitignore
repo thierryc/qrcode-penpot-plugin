@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# macOS specific files
+.DS_Store
+
+# Environment files
+.env
+.env.local
+.env.*.local
