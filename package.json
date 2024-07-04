@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "preinstall": "if [ -f .nvmrc ]; then nvm use; fi",
     "dev": "vite build --watch & vite preview",
     "build": "tsc && vite build"
   },
