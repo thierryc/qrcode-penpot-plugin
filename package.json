@@ -4,9 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "preinstall": "if [ -f .nvmrc ]; then nvm use; fi",
     "dev": "vite build --watch & vite preview",
     "build": "tsc && vite build"
   },
+  "author": "Thierry Charbonnel",
   "dependencies": {
     "@penpot/plugin-styles": "0.6.0",
     "@penpot/plugin-types": "0.6.0"
