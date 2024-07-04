@@ -9,7 +9,7 @@ This repository is designed to be your starting point for creating plugins for P
 Begin by cloning this repository to your local machine. Use the following command in your terminal:
 
 ```bash
-git clone --depth 1 [https://github.com/penpot/penpot-plugin-starter-template](https://github.com/thierryc/apcx-penpot-plugin-starter-template) penpot-plugin
+git clone --depth 1 https://github.com/penpot/penpot-plugin-starter-template penpot-plugin
 ```
 
 This command clones the latest version of the template into a folder named `penpot-plugin`.
