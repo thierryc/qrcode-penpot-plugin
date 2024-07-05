@@ -1,5 +1,11 @@
 # QRcode Penpot Plugin
 
+install url: 
+
+```bash
+http://thierryc.github.io/qrcode-penpot-plugin
+```
+
 This repository is designed to be your starting point for creating plugins for Penpot. Follow these instructions to set up your development environment and start building your own Penpot plugins.
 
 ## Getting Started
