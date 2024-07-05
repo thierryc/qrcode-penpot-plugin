@@ -3,7 +3,7 @@
   "host": "http://localhost:4400",
   "code": "plugin.js",
   "description": "QR code generator plugin for Penpot by thierryc on github.com",
-  "icon": "/icon.png",
+  "icon": "./icon.png",
   "permissions": [
     "content:read",
     "content:write"
