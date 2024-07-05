@@ -1,9 +1,9 @@
 {
   "name": "QRcode",
-  "host": "http://localhost:4400",
+  "host": "https://qrcode-penpot-plugin.vercel.app",
   "code": "plugin.js",
   "description": "QR code generator plugin for Penpot by thierryc on github.com",
-  "icon": "/icon.png",
+  "icon": "icon.png",
   "permissions": [
     "content:read",
     "content:write"
