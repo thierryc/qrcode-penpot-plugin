@@ -1,6 +1,6 @@
 {
   "name": "QRcode",
-  "host": "https://thierryc.github.io",
+  "host": "https://thierryc.github.io/qrcode-penpot-plugin/",
   "code": "/qrcode-penpot-plugin/plugin.js",
   "description": "QR code generator plugin for Penpot by thierryc on github.com",
   "icon": "/qrcode-penpot-plugin/icon.png",
