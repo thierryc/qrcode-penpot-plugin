@@ -1,1 +1,1 @@
-console.log("Hello from the plugin!");penpot.ui.open("Penpot plugin starter template","");
+penpot.ui.open("QRcode",`?theme=${penpot.getTheme()}`,{width:292,height:540});penpot.ui.onMessage(e=>{if(e.type==="insert-svg"){const{name:n,svg:p}=e.content;if(!p||!n)return;const t=penpot.createShapeFromSvg(p);t&&(t.name=n,t.x=penpot.viewport.center.x,t.y=penpot.viewport.center.y)}});penpot.on("themechange",e=>{o({type:"theme",content:e})});function o(e){penpot.ui.sendMessage(e)}
