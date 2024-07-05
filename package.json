@@ -1,5 +1,5 @@
 {
-  "name": "penpot-plugin-starter-template",
+  "name": "qr-code-penpot-plugin",
   "private": true,
   "version": "0.0.0",
   "type": "module",

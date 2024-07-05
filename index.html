@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Penpot plugin example</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Penpot plugin example</title>
+</head>
+
+<body>
+  <form class="sections-wrapper">
+    <section class="regular-generate">
+      <label for="qrContent" class="body-s">Enter QR Code Content:</label>
+      <input type="text" id="qrContent" name="qrContent" placeholder="Enter content for QR code"
+        aria-label="QR code content" value="https://ap.cx/" class="input qrcode-input">
+      <div class="preview-container">
+        <div id="app" class="svg-preview"></div>
+      </div>
+      <button type="button" id="generateBtn" aria-label="Generate QR code" data-appearance="primary">Generate QR
+        Code</button>
+    </section>
+    <section class="extra-options">
+      <div class="select-container">
+        <label for="correctionLevel" class="body-s">Select QR Code Correction Level</label>
+        <select id="correctionLevel" name="correctionLevel" class="select">
+          <option value="L">Low (7%)</option>
+          <option value="M" selected>Medium (15%)</option>
+          <option value="Q">Quartile (25%)</option>
+          <option value="H">High (30%)</option>
+        </select>
+      </div>
+    </section>
+  </form>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
 </html>

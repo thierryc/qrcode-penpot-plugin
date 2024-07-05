@@ -1,14 +1,69 @@
 @import "@penpot/plugin-styles/styles.css";
 
-body {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  padding: 10px;
+.qrcode-input {
+  width: 100%;
 }
 
-p {
-  margin-block-end: 0.75rem;
+.generation-options {
+  display: flex;
+  gap: var(--spacing-8);
+}
+
+.preview-container {
+  margin-block-start: var(--spacing-12);
+  border-radius: var(--spacing-8);
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #ddd;
+  background-image: linear-gradient(45deg, #ccc 25%, transparent 25%, transparent 75%, #ccc 75%, #ccc),
+                    linear-gradient(45deg, #ccc 25%, transparent 25%, transparent 75%, #ccc 75%, #ccc);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg-preview {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.generation-size {
+  inline-size: 60px;
+}
+
+.generation-type {
+  inline-size: 100%;
+}
+
+.sections-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-8);
+  height: 100vh;
+}
+
+section {
+  padding-block-start: var(--spacing-24);
+
+  button {
+    inline-size: 100%;
+  }
+}
+
+.regular-generate {
+  padding-block-end: var(--spacing-24);
+
+  button {
+    margin-block-start: var(--spacing-12);
+  }
+}
+
+.extra-options {
+  margin-block-start: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-20);
 }

@@ -1,4 +1,4 @@
-# Penpot Plugin Starter Template
+# QRcode Penpot Plugin
 
 This repository is designed to be your starting point for creating plugins for Penpot. Follow these instructions to set up your development environment and start building your own Penpot plugins.
 
@@ -58,3 +58,6 @@ npm run build
 ```
 
 This command compiles your TypeScript code and assets into JavaScript, creating a `dist` folder that contains all the files necessary to deploy your plugin.
+
+
+https://github.com/papnkukn/qrcode-svg/tree/master
