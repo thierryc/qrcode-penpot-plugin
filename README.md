@@ -3,7 +3,8 @@
 install url: 
 
 ```bash
-https://qrcode-penpot-plugin.vercel.app/manifest.json
+https://qrcode-penpot-plugin.ap.cx/manifest.json
+
 ```
 
 This repository is designed to be your starting point for creating plugins for Penpot. Follow these instructions to set up your development environment and start building your own Penpot plugins.
