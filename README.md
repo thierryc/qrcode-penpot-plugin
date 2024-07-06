@@ -14,7 +14,7 @@ The QRcode Penpot Plugin is a tool designed to generate QR codes directly within
 ## Installation
 
 1. Open Penpot and navigate to the plugin manager.
-2. Click on "Add Plugin" and enter the following URL:
+2. Click on "Plugin manager" (⌘⌥P) in the "Plugins" in the dot menu and enter the following URL:
    ```bash
    https://qrcode-penpot-plugin.ap.cx/manifest.json
    ```
