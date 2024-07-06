@@ -1,70 +1,50 @@
 # QRcode Penpot Plugin
 
-install url: 
+## Overview
 
-```bash
-https://qrcode-penpot-plugin.ap.cx/manifest.json
+The QRcode Penpot Plugin is a tool designed to generate QR codes directly within Penpot, a free and open-source design and prototyping platform. This plugin simplifies the process of creating and embedding QR codes in your design projects, enhancing interactivity and user engagement.
 
-```
+## Features
 
-This repository is designed to be your starting point for creating plugins for Penpot. Follow these instructions to set up your development environment and start building your own Penpot plugins.
+- **Seamless Integration**: Easily accessible from within the Penpot interface.
+- **Customizable QR Codes**: Generate QR codes with customizable error correction levels.
+- **Instant Preview**: View your QR code in real-time as you customize it.
+- **Direct SVG Generation**: Generate the QR code as an SVG in your currently open Penpot file.
 
-## Getting Started
+## Installation
 
-### Clone the Repository
+1. Open Penpot and navigate to the plugin manager.
+2. Click on "Add Plugin" and enter the following URL:
+   ```bash
+   https://qrcode-penpot-plugin.ap.cx/manifest.json
+   ```
+3. Follow the prompts to complete the installation.
 
-Begin by cloning this repository to your local machine. Use the following command in your terminal:
+## Usage
 
-```bash
-git clone --depth 1 https://github.com/thierryc/apcx-penpot-plugin-starter-template penpot-plugin
-```
+1. **Access the Plugin**: Once installed, you can access the QRcode plugin from the plugins menu in Penpot.
+2. **Generate QR Code**:
+   - Open the plugin interface.
+   - Enter the URL or text you want to encode in the QR code.
+   - Customize the error correction level as needed.
+3. **Preview and Insert**:
+   - Preview the QR code to ensure it meets your requirements.
+   - Insert the QR code as an SVG directly into your currently open Penpot file.
 
-This command clones the latest version of the template into a folder named `penpot-plugin`.
+## Customization Options
 
-### Configure the Plugin
+- **Error Correction**: Choose the level of error correction (Low, Medium, High, Quartile) based on the intended use and the complexity of the QR code content. The default size of the QR code is set to 180x180 pixels, but since SVGs are vector-based, they can be resized to any size. Ensure the QR code is large enough to be scanned with a phone camera.
 
-Next, you need to edit the plugin's configuration file:
+## Support
 
-1. Navigate to the `penpot-plugin` directory.
-2. Open the `manifest.json` file located in the `/public` folder.
-3. Make any necessary changes to the configuration. Note that any modifications to this file require you to restart the development server for changes to take effect.
+For issues, feature requests, or contributions, please visit our [GitHub repository](https://github.com/thierryc/qrcode-penpot-plugin) and open an issue to get support. Please remember to stay polite and courteous in your issues to ensure a positive and productive interaction.
 
-### Run the Development Server
+## License
 
-To start the development server, run the following command in your terminal:
+This plugin is released under the [MIT License](LICENSE).
 
-```bash
-npm run dev
-```
+---
 
-Once the server is running, open your web browser and go to `http://localhost:4400` to view your plugin in action. Now is ready to be loaded in Penpot.
+Thank you for using the QRcode Penpot Plugin! We hope it enhances your design workflow and helps you create more interactive and engaging projects.
 
-## Development
-
-### Technologies Used
-
-This plugin template uses several key technologies:
-
-- **TypeScript**
-- **Vite**
-- **Web Components**
-
-### Libraries Included
-
-The template includes two Penpot libraries to assist in your development:
-
-- `@penpot/plugin-styles`: This library provides utility functions and resources to help you style your components consistently with Penpot's design system.
-- `@penpot/plugin-types`: This library includes types and API descriptions for interacting with the Penpot plugin API, facilitating the development of plugins that can communicate effectively with the Penpot app.
-
-## Build Your Plugin
-
-When you're ready to build your plugin for production, run the following command:
-
-```bash
-npm run build
-```
-
-This command compiles your TypeScript code and assets into JavaScript, creating a `dist` folder that contains all the files necessary to deploy your plugin.
-
-
-https://github.com/papnkukn/qrcode-svg/tree/master
+---
