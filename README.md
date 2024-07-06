@@ -4,6 +4,10 @@
 
 The QRcode Penpot Plugin is a tool designed to generate QR codes directly within Penpot, a free and open-source design and prototyping platform. This plugin simplifies the process of creating and embedding QR codes in your design projects, enhancing interactivity and user engagement.
 
+
+![Preview Image](assets/preview-qrcode-penpot-plugin.png)
+
+
 ## Features
 
 - **Seamless Integration**: Easily accessible from within the Penpot interface.
@@ -19,6 +23,10 @@ The QRcode Penpot Plugin is a tool designed to generate QR codes directly within
    https://qrcode-penpot-plugin.ap.cx/manifest.json
    ```
 3. Follow the prompts to complete the installation.
+
+
+![Preview Image](assets/instal-preview-qrcode-penpot-plugin.png)
+
 
 ## Usage
 
