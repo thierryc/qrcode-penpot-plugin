@@ -43,6 +43,14 @@ For issues, feature requests, or contributions, please visit our [GitHub reposit
 
 This plugin is released under the [MIT License](LICENSE).
 
+## Open Source and Privacy
+
+The QRcode Penpot Plugin is open-source, meaning its source code is freely available for anyone to view, modify, and distribute. This ensures transparency and allows the community to contribute to its improvement. Additionally, this plugin does not track or collect any personal data, ensuring your privacy and the security of your design projects.
+
+## Follow Me
+
+Stay updated with the latest news and updates about the QRcode Penpot Plugin by following me on [X (formerly Twitter)](https://x.com/Autre_planete).
+
 ---
 
 Thank you for using the QRcode Penpot Plugin! We hope it enhances your design workflow and helps you create more interactive and engaging projects.
