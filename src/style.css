@@ -26,8 +26,9 @@
 }
 
 .svg-preview {
-  max-width: 100%;
+  width: 75%;
   max-height: 100%;
+  margin: 12px;
 }
 
 .generation-size {

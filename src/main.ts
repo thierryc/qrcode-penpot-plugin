@@ -36,6 +36,8 @@ function generateQRCode() {
     color: "#000000",
     background: "#ffffff00",
     ecl,
+    join: true,
+    container: "svg-viewbox",
   }).svg();
   document.querySelector<HTMLDivElement>("#app")!.innerHTML = `${svg}`;
 }
