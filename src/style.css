@@ -48,16 +48,14 @@
 }
 
 section {
-  padding-block-start: var(--spacing-24);
-
+  padding-block-start: var(--spacing-12);
   button {
     inline-size: 100%;
   }
 }
 
-.regular-generate {
-  padding-block-end: var(--spacing-24);
-
+.generate {
+  padding-block-end: var(--spacing-12);
   button {
     margin-block-start: var(--spacing-12);
   }
@@ -68,4 +66,10 @@ section {
   padding-block-end: 1px; /* fix the border bottom issue */
   display: flex;
   flex-direction: column;
+}
+
+.btn-note {
+  margin-block-start: var(--spacing-8);
+  text-align: center;
+  display: none !important;
 }
