@@ -71,5 +71,4 @@ section {
 .btn-note {
   margin-block-start: var(--spacing-8);
   text-align: center;
-  display: none !important;
 }
