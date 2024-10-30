@@ -1,7 +1,7 @@
 import type { PluginMessageEvent, PluginUIEvent } from './model.ts';
 
 
-penpot.ui.open('QRcode', `?theme=${penpot.getTheme()}`, {
+penpot.ui.open('QRcode', `?theme=${penpot.theme}`, {
     width: 292,
     height: 540,
 });

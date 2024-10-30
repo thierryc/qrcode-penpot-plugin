@@ -10,8 +10,8 @@
   },
   "author": "Thierry Charbonnel",
   "dependencies": {
-    "@penpot/plugin-styles": "0.8.0",
-    "@penpot/plugin-types": "0.8.0"
+    "@penpot/plugin-styles": "1.0.0",
+    "@penpot/plugin-types": "1.0.0"
   },
   "devDependencies": {
     "gh-pages": "^6.1.1",
